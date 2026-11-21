@@ -1,7 +1,7 @@
 import { SneakerModel } from "../models/sneakerModel.js";
 
 // Ambil kolom yang boleh diisi aja, string kosong diubah jadi null
-const FIELDS = ["name", "brand_id", "category_id", "colorway", "price", "release_date", "image_url", "description"];
+const FIELDS = ["name", "brand_id", "category_id", "colorway", "sizes", "price", "release_date", "image_url", "description"];
 
 function cleanPayload(body) {
   const payload = {};
